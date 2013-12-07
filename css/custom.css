@@ -1,0 +1,19 @@
+.reveal table{
+    width:100%
+}
+
+.reveal table th,
+.reveal table td {
+    text-align: left;
+    padding-right: .3em;
+    padding-bottom:.3em;
+    padding-top:.3em;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.reveal table th {
+    font-weight: bold;
+}
+.reveal table tr {
+
+}

@@ -2,6 +2,7 @@
 	<h1>Laravel routing</h1>
 	<h2>Van URL naar code</h2>
 </section>
+
 <section>
 	<h1>2 soorten routing</h1>
 	<ul>
@@ -9,6 +10,7 @@
 		<li><h3>Impleciet</h3></li>
 	</ul>
 </section>
+
 <section>
 	<h1>Expleciete routing</h1>
 	<h2>Closure</h2>
@@ -22,6 +24,7 @@ Route::get('/', function(){
 Route::get('user/{id}', 'UserController@showProfile');
     </code></pre>
 </section>
+
 <section>
 	<h1>Impleciete routing</h1>
 	<h2>Closure</h2>
