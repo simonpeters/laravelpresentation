@@ -83,37 +83,37 @@ Do you confirm generation [yes]? y
 <section>
     <h2>Hoe dependencies toevoegen?</h2>
     <pre class="fragment"><code  data-trim>
-        {
-            "require": {
-                "vendor/package": "version"
-            }
-        }
+{
+    "require": {
+        "vendor/package": "version"
+    }
+}
     </code></pre>
     <pre class="fragment"><code  data-trim>
-         {
-             "require": {
-                "laravel/framework": "~4.0"
-             }
-         }
+ {
+     "require": {
+        "laravel/framework": "~4.0"
+     }
+ }
      </code></pre>
 </section>
 
 <section>
     <h2>Dependencies alleen voor development</h2>
     <pre class="fragment"><code  data-trim>
-    {
-        "require-dev": {
-            "vendor/package": "version"
-        }
+{
+    "require-dev": {
+        "vendor/package": "version"
     }
+}
     </code></pre>
     <pre class="fragment"><code  data-trim>
-     {
-         "require-dev": {
-             "phpunit/phpunit": "3.7.*",
-             "codeception/codeception": "1.6.*@dev"
-         }
+ {
+     "require-dev": {
+         "phpunit/phpunit": "3.7.*",
+         "codeception/codeception": "1.6.*@dev"
      }
+ }
     </code></pre>
 </section>
 
@@ -153,67 +153,67 @@ Do you confirm generation [yes]? y
 
 <section>
      <pre class="stretch"><code  data-trim>{
-             "name": "Mychannls",
-             "description": "A new way of watching television",
-             "repositories": [
-                 {
-                     "type": "composer",
-                     "url": "http://packages.cartalyst.com"
-                 }
-             ],
-             "require": {
-                 "laravel/framework": "4.0.*",
-                 "cartalyst/sentry": "2.0.*",
-                 "predictionio/predictionio": "*",
-                 "pda/pheanstalk": "dev-master",
-                 "iron-io/iron_mq": "dev-master",
-                 "cartalyst/sentry": "2.0.*",
-                 "roumen/sitemap": "dev-master",
-                 "cartalyst/sentry-social": "2.0.*",
-                 "facebook/php-sdk": "3.2.*"
-             },
-             "require-dev": {
-                 "mockery/mockery": "dev-master@dev",
-                 "phpunit/phpunit": "3.7.*",
-                 "codeception/codeception": "1.6.*@dev",
-                 "raveren/kint": "dev-master"
-             },
-             "autoload": {
-                 "classmap": [
-                     "app/commands",
-                     "app/controllers",
-                     "app/controllers/api",
-                     "app/controllers/web",
-                     "app/models",
-                     "app/libraries/recommendations",
-                     "app/libraries/postman",
-                     "app/libraries/tools",
-                     "app/libraries/lifeInvader",
-                     "app/libraries/videotools",
-                     "app/database/migrations",
-                     "app/database/seeds",
-                     "app/tests/TestCase.php"
-                 ]
-             },
-             "scripts": {
-                 "post-install-cmd": [
-                    "php artisan optimize"
-                 ],
-                 "pre-update-cmd": [
-                    "php artisan clear-compiled"
-                 ],
-                 "post-update-cmd": [
-                    "php artisan optimize"
-                 ],
-                 "post-create-project-cmd": [
-                    "php artisan key:generate"
-                 ]
-             },
-             "config": {
-                "preferred-install": "dist"
-             },
-             "minimum-stability": "dev"
-             }
+ "name": "Mychannls",
+ "description": "A new way of watching television",
+ "repositories": [
+     {
+         "type": "composer",
+         "url": "http://packages.cartalyst.com"
+     }
+ ],
+ "require": {
+     "laravel/framework": "4.0.*",
+     "cartalyst/sentry": "2.0.*",
+     "predictionio/predictionio": "*",
+     "pda/pheanstalk": "dev-master",
+     "iron-io/iron_mq": "dev-master",
+     "cartalyst/sentry": "2.0.*",
+     "roumen/sitemap": "dev-master",
+     "cartalyst/sentry-social": "2.0.*",
+     "facebook/php-sdk": "3.2.*"
+ },
+ "require-dev": {
+     "mockery/mockery": "dev-master@dev",
+     "phpunit/phpunit": "3.7.*",
+     "codeception/codeception": "1.6.*@dev",
+     "raveren/kint": "dev-master"
+ },
+ "autoload": {
+     "classmap": [
+         "app/commands",
+         "app/controllers",
+         "app/controllers/api",
+         "app/controllers/web",
+         "app/models",
+         "app/libraries/recommendations",
+         "app/libraries/postman",
+         "app/libraries/tools",
+         "app/libraries/lifeInvader",
+         "app/libraries/videotools",
+         "app/database/migrations",
+         "app/database/seeds",
+         "app/tests/TestCase.php"
+     ]
+ },
+ "scripts": {
+     "post-install-cmd": [
+        "php artisan optimize"
+     ],
+     "pre-update-cmd": [
+        "php artisan clear-compiled"
+     ],
+     "post-update-cmd": [
+        "php artisan optimize"
+     ],
+     "post-create-project-cmd": [
+        "php artisan key:generate"
+     ]
+ },
+ "config": {
+    "preferred-install": "dist"
+ },
+ "minimum-stability": "dev"
+ }
          </code>
     </pre>
 </section>
@@ -281,16 +281,16 @@ Do you confirm generation [yes]? y
         composer create-project laravel/laravel --prefer-dist
     </code></pre>
     <pre class="fragment"><code  data-trim>
-        $ composer create-project laravel/laravel --prefer-dist
-        Installing laravel/laravel (v4.0.9)
-        - Installing laravel/laravel (v4.0.9)
-        Downloading: 100%
+$ composer create-project laravel/laravel --prefer-dist
+Installing laravel/laravel (v4.0.9)
+- Installing laravel/laravel (v4.0.9)
+Downloading: 100%
 
-        Created project in C:\xampp\htdocs\presentations\composer\laravel
-        Loading composer repositories with package information
-        Installing dependencies (including require-dev)
+Created project in C:\xampp\htdocs\presentations\composer\laravel
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
 
-        // Instaleren van alle dependencies
+// Instaleren van alle dependencies
 
     </code></pre>
 </section>
@@ -305,13 +305,13 @@ Do you confirm generation [yes]? y
         <h3>Vroeger:</h3>
         <p>Elk bestand waar we librarie nodig hebben</p>
         <pre class="fragment"><code  data-trim>
-            require_once("libs/facebook.php");
+require_once("libs/facebook.php");
 
-            $config = array(
-                //config settings
-            );
+$config = array(
+    //config settings
+);
 
-            $facebook = new Facebook($config);
+$facebook = new Facebook($config);
         </code></pre>
     </div>
 </section>
@@ -319,20 +319,20 @@ Do you confirm generation [yes]? y
 <section>
     <h3>Met composer:</h3>
     <pre class="fragment"><code  data-trim>
-        {
-            "require": {
-                "facebook/php-sdk" : "~3.2"
-            }
-        }
+{
+    "require": {
+        "facebook/php-sdk" : "~3.2"
+    }
+}
     </code></pre>
     <pre class="fragment"><code  data-trim>
         $ composer install
     </code></pre>
     <pre class="fragment"><code  data-trim>
-        $config = array(
-            //config settings
-        );
+$config = array(
+    //config settings
+);
 
-        $facebook = new Facebook($config);
+$facebook = new Facebook($config);
     </code></pre>
 </section>

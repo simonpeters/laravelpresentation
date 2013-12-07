@@ -16,12 +16,13 @@
 
         <link rel="stylesheet" href="reveal/css/reveal.min.css">
         <link rel="stylesheet" href="reveal/css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="css/custom.css" id="theme">
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="reveal/lib/css/zenburn.css">
 
         <!--[if lt IE 9]>
-        <script src="lib/js/html5shiv.js"></script>
+            <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
     </head>
 
