@@ -1,9 +1,6 @@
 <section>
     <h1>Composer</h1>
     <h3>PHP package manager</h3>
-    <p>
-        <small>Created by Vincent Peters</small>
-    </p>
 </section>
 
 <section>

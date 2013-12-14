@@ -35,6 +35,13 @@
                 <?php require_once('presentations/laravel_intro.php'); ?>
                 <?php require_once('presentations/composer.php'); ?>
                 <?php require_once('presentations/routing.php'); ?>
+                <section>
+                    <h1>PAUZE</h1>
+                </section>
+                <?php require_once('presentations/structuur.php'); ?>
+                 <section>
+                    <h1>PAUZE</h1>
+                </section>
             </div>
 
         </div>
