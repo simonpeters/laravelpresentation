@@ -1,5 +1,27 @@
 <section>
 	<h1>Structuur</h1>
+	<aside class="notes">
+		<ul>
+			<li>Public</li>
+			<ul>
+				<li>Index.php</li>
+			</ul>
+			<li>Bootstrap</li>
+			<li>Vendor/composer</li>
+			<ul>
+				<li>Autoload</li>
+			</ul>
+		</ul>
+		<ul>
+			<li>App</li>
+			<ul>
+				<li>MVC</li>
+				<li>DB</li>
+				<li>routes.php</li>
+				<li>filter.php</li>
+			</ul>			
+		</ul>
+	</aside>
 </section>
 
 <section>
@@ -10,7 +32,7 @@
 <section>
 	<h1>Wat is er mis met dit voorbeeld?</h1>
 	<ul>
-		<li  class="fragment">NIET DRY</li>
+		<li  class="fragment">Niet DRY</li>
 		<li  class="fragment">Niet OO</li>
 		<li  class="fragment">Niet MVC</li>
 	</ul>

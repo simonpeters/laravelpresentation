@@ -10,7 +10,6 @@
         <li class="fragment">Auto Loading</li>
         <li class="fragment">Project scaffolding</li>
     </ul>
-
 </section>
 
 

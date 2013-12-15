@@ -39,9 +39,11 @@
                     <h1>PAUZE</h1>
                 </section>
                 <?php require_once('presentations/structuur.php'); ?>
-                 <section>
+                <?php require_once('presentations/part2.php'); ?>
+                <section>
                     <h1>PAUZE</h1>
                 </section>
+
                 <?php require_once('presentations/part2.php'); ?>
                 <section>
                     <h1>PAUZE</h1>
