@@ -31,12 +31,12 @@
 		</ul>
     </aside>
 </section>
-<section>
+<!-- <section>
 	<h1>Wat is Laravel</h1>
 	<blockquote>
 		&ldquo;Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.&rdquo;
 	</blockquote>
-</section>
+</section> -->
 <section>
 	<h1>Hoe ontstaan</h1>
 	<ul>
