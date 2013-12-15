@@ -1,4 +1,4 @@
-<section>
+<section id="carbon">
 <section>
 	<h1>Carbon</h1>
 	<p>Carbon is een PHP tool voor met datums te werken</p>
@@ -40,4 +40,7 @@ $user->created_at->diffForHumans(); //=> bv:  3 months ago
 use Carbon\Carbon;
 </code></pre>
 </section>
+<section>
+		<h1><a href="#/tips-tricks">Back</a></h1>
+	</section>
 </section>

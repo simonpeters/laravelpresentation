@@ -1,4 +1,4 @@
-<section>
+<section id="cache">
 <section>
 <h1>Cache</h1>
 	<h2>Cache item toevoegen</h2>
@@ -24,5 +24,8 @@ Cache::forget('laravelPresentation');
 			<li class="fragment">...</li>
 		</ul>
 		<aside class="notes">Code blijft zelfde, uniforme API voor alle cache types. Krachtig in combinatie met enviorments</aside>
+	</section>
+	<section>
+		<h1><a href="#/tips-tricks">Back</a></h1>
 	</section>
 </section>

@@ -1,4 +1,4 @@
-<section>
+<section id="events">
 <section>
 	<h1>Events</h1>
 		<blockquote>
@@ -35,4 +35,7 @@ $event = Event::fire('user.login', array($user));
 </code></pre>
 
 </section>
+<section>
+		<h1><a href="#/tips-tricks">Back</a></h1>
+	</section>
 </section>

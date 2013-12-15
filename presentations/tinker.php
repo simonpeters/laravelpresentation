@@ -1,4 +1,4 @@
-<section>
+<section id="tinker">
 <section>
 	<h1>Tinker / Boris</h1>
 </section>
@@ -24,4 +24,7 @@ php artisan tinker
 		<li style="color:#F61F40;" class="fragment">WARNING: Alleen Posix enablen in dev environment</li>
 	</ul>
 </section>
+<section>
+		<h1><a href="#/tips-tricks">Back</a></h1>
+	</section>
 </section>

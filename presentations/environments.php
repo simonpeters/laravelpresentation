@@ -1,4 +1,4 @@
-<section>
+<section id="environments">
 <section>
 	<h1>Environments</h1>
 	<p class="fragment">Laravel biedt mogelijk aan om "Environments" in te stellen.</p>
@@ -35,4 +35,7 @@
 	</ul>
 	<aside class="notes">Vraag achter facebook probleem</aside>
 </section>
+<section>
+		<h1><a href="#/tips-tricks">Back</a></h1>
+	</section>
 </section>
