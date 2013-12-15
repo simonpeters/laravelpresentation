@@ -27,7 +27,9 @@
 </section>
 
 <section>
-	<h1 class="fragment">Facades</h1>
+	<h1 >Facades</h1>
+	<blockquote class="fragment">A deceptive outward appearance.<br/>
+&ldquo;her flawless public facade masked private despair&rdquo;</blockquote>
 	<ul>
 		<li  class="fragment">Uniek voor Laravel</li>
 		<li  class="fragment">Facades zitten overal in laravel</li>

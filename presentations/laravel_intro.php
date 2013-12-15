@@ -5,6 +5,24 @@
 	<h4>A.K.A The Fire Brothers</h4>
 </section>
 <section>
+	<h1>Breakdown</h1>
+	<ul class="fragment">
+		<li>Intro</li>
+		<li>Composer</li>
+		<li>Routing</li>
+	</ul>
+	<ul class="fragment">
+		<li>MVC voorbeeld #1</li>
+		<li>Facades*</li>
+		<li>MVC voorbeeld #2</li>
+	</ul>
+	<ul class="fragment">
+		<li>Tips & tricks</li>
+		<li>Vragen</li>
+		<li>Ping Pong</li>
+	</ul>
+</section>
+<section>
 	<h1>Wat is Laravel</h1>
 	<blockquote>
 		&ldquo;Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.&rdquo;

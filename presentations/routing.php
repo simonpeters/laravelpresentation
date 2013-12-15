@@ -39,11 +39,11 @@ Route::controller('users', 'UserController');
 class UserController extends BaseController {
     public function getProfile()
     {
-        //
+        //show profile
     }
     public function postProfile()
     {
-        //
+        //create profile
     }
 }
     </code></pre>
