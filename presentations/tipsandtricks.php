@@ -143,3 +143,110 @@ class Post extends Eloquent {
                 </code></pre>
     </section>
 </section>
+
+<section>
+    <section>
+        <h1>Seeds & Fakers</h1>
+    </section>
+
+    <section>
+        <h2>Seeds</h2>
+        <p>Database vullen met data via de command line</p>
+        <p>Handig voor development in team</p>
+    </section>
+
+    <section>
+        <h2>Voorbeelden van Seeding</h2>
+        <p>Dummy gebruikers toevoegen</p>
+            <pre class=""><code data-trim>
+class UserTableSeeder extends Seeder {
+
+    public function run()
+    {
+        DB::table('users')->delete();
+
+        User::create(array('email' => 'foo@bar.com',
+            'name' => "John doe" ));
+
+        User::create(array('email' => 'lorem@ipsum.com',
+            'name' => "Jane doe" ));
+    }
+
+}
+                </code></pre>
+        <div class="fragment">
+        <p>Command line:</p>
+            <pre class=""><code data-trim>
+                   $ php artisan db:seed
+                </code></pre></div>
+    </section>
+
+    <section>
+        <h2>Combineren met Faker</h2>
+        <div class="fragment">
+            <p>Zit niet standaard in Laravel.</p>
+            <p>Genereert dummy data dynamisch</p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Faker installeren</h3>
+        <p>Install via composer</p>
+         <pre class="fragment"><code data-trim>
+ "require-dev": {
+     "mockery/mockery": "dev-master@dev",
+     "phpunit/phpunit": "3.7.*",
+     "fzaninotto/faker": dev-master"
+ },
+             </code></pre>
+    </section>
+
+    <section>
+        <pre class=""><code data-trim>
+class UserTableSeeder extends Seeder {
+
+    public function run()
+    {
+        Elequent::unguard();
+
+        $faker = Faker\Factory::create();
+
+        foreach( range(1,20) as $index)
+        {
+            User::create([
+                'email'     => $faker->email,
+                'usernam'  => $faker->userName
+                ]);
+        }
+    }
+
+}
+            </code></pre>
+    </section>
+    
+    <section>
+        <h2>Outputs:</h2>
+        <img src="images/faker.PNG" alt=""/>
+    </section>
+
+    <section>
+        <h2>Andere voorbeelden</h2>
+       <pre class="fragment"><code data-trim>$faker->name           // 'Dr. Zane Stroman'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->address        // '8888 Cummings Vista Apt. 101, Susanbury, NY 954'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->country                 // 'Falkland Islands (Malvinas)'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->phoneNumber             // '132-149-0269x3767'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->word                    // 'aut'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->sentence(6)  // 'Sit vitae voluptas sint non voluptates.'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->paragraph(3) // 'Ut ab voluptas sed a nam. Sint aut ...'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->url                     // 'http://www.strackeframi.com/'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->dateTimeThisMonth       // DateTime('2011-10-23 13:46:23')'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->hexcolor               // '#fa3cc2'</code></pre>
+       <pre class="fragment"><code data-trim>$faker->imageUrl               // 'http://lorempixel.com/640/480/'</code></pre>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h1>Laravel tail</h1>
+    </section>
+</section>
