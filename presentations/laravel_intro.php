@@ -21,6 +21,15 @@
 		<li>Vragen</li>
 		<li>Ping Pong</li>
 	</ul>
+	<aside class="notes">
+		<ul>
+			<li>! full Laravel tut.</li>
+			<li>Composer/routing wel</li>
+			<li>Structuur + MVC</li>
+			<li>Advanced Laravel</li>
+			<li>Makkelijke tip & tricks</li>
+		</ul>
+    </aside>
 </section>
 <section>
 	<h1>Wat is Laravel</h1>
