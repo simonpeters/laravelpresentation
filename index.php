@@ -47,6 +47,8 @@
                 <?php require_once('presentations/cache.php'); ?>
                 <?php require_once('presentations/tinker.php'); ?>
                 <?php require_once('presentations/events.php'); ?>
+                <?php require_once('presentations/environments.php'); ?>
+                <?php require_once('presentations/carbon.php'); ?>
             </div>
 
         </div>
