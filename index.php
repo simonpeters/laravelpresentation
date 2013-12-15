@@ -36,14 +36,36 @@
                 <?php require_once('presentations/composer.php'); ?>
                 <?php require_once('presentations/routing.php'); ?>
                 <section>
+                    <h1>Quiz: #1</h1>
+                    <h3 class="fragment">Wat is verschil tussen "composer install" en "composer update"</h3>
+                </section>
+                <section>
+                    <img src="images/it-celebrate.gif" alt="">
+                </section>
+                <section>
                     <h1>PAUZE</h1>
                 </section>
                 <?php require_once('presentations/structuur.php'); ?>
                 <?php require_once('presentations/part2.php'); ?>
                 <section>
+                    <h1>Quiz: #2</h1>
+                    <h3 class="fragment">Wat doet "__callStatic()"</h3>
+                </section>
+                <section>
+                    <img src="images/fq1ml.gif" width='50%' alt="">
+                </section>
+                <section>
                     <h1>PAUZE</h1>
                 </section>
                 <?php require_once('presentations/tipsandtricks.php'); ?>
+                
+                <section>
+                    <h1>Vragen?</h1>
+                </section>
+                <section>
+                    <h1>The end!</h1>
+                </section>
+                <?php require_once('presentations/tipsandtricks2.php'); ?>
                 <?php require_once('presentations/cache.php'); ?>
                 <?php require_once('presentations/tinker.php'); ?>
                 <?php require_once('presentations/events.php'); ?>

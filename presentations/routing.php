@@ -50,7 +50,7 @@ Route::controller('users', 'UserController');
 <h2>In de Controller</h2>
     <pre><code data-trim>
 class UserController extends BaseController {
-    public function getProfile()
+    public function getProfile($id)
     {
         //show profile
     }

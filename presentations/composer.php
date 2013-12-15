@@ -248,7 +248,7 @@ Do you confirm generation [yes]? y
     <div class="fragment">
         <h3>Install</h3>
         <p>Geen composer.lock? Installeer hoogste versies volgens package.json</p>
-        <p>Wel een composer.json! Installeer de versies volgens lock file</p>
+        <p>Wel een composer.lock! Installeer de versies volgens lock file</p>
 
     </div>
     <div class="fragment">

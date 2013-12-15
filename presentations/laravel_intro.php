@@ -39,10 +39,14 @@
 </section> -->
 <section>
 	<h1>Hoe ontstaan</h1>
-	<ul>
+	<div>
+		<ul>
 		<li>2009 ( Samen met PHP 5.3 )</li>
 		<li>Taylor Otwell</li>
 	</ul>
+	</div>
+	
+	<img src="images/hoofd.jpg" alt="" class="fragment">
 </section>
 <section>
 	<h1>Waarom Laravel (4)</h1>
