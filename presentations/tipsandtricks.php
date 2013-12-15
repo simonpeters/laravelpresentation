@@ -11,7 +11,7 @@
         </thead>
         <tbody>
         <tr class="odd">
-            <th style="text-align: left;"><a href="#/12">Boris</a> <br><small>Commandline tinkering</small></th>
+            <th style="text-align: left;"><a href="#/12">Tinker/Boris</a> <br><small>Commandline tinkering</small></th>
             <th style="text-align: left;"><a href="#/12">Seeds & Fakers</a> <br><small>Filling up those tables</small></th>
             <th style="text-align: left;"><a href="#/12">Events</a> <br><small>Fiddeling with events</small></th>
         </tr>
