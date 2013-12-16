@@ -1,4 +1,4 @@
-<section>
+<section id="am">
     <section><h1>Accessors & Mutators</h1></section>
     <section>
         <ul>
@@ -116,9 +116,12 @@ class Post extends Eloquent {
                     In database: "nulla-eiusmod-8-bit-assumenda"
                 </code></pre>
     </section>
+    <section>
+        <h1><a href="#/tips-tricks">Back</a></h1>
+    </section>
 </section>
 
-<section>
+<section id="sf">
     <section>
         <h1>Seeds & Fakers</h1>
     </section>
@@ -216,6 +219,9 @@ class UserTableSeeder extends Seeder {
        <pre class="fragment"><code data-trim>$faker->dateTimeThisMonth       // DateTime('2011-10-23 13:46:23')'</code></pre>
        <pre class="fragment"><code data-trim>$faker->hexcolor               // '#fa3cc2'</code></pre>
        <pre class="fragment"><code data-trim>$faker->imageUrl               // 'http://lorempixel.com/640/480/'</code></pre>
+    </section>
+    <section>
+        <h1><a href="#/tips-tricks">Back</a></h1>
     </section>
 </section>
 
