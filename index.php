@@ -65,6 +65,17 @@
                 <section>
                     <h1>The end!</h1>
                 </section>
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="https://laracasts.com/">Laracast</a></li>
+                        <li><a href="http://net.tutsplus.com/tag/laravel/">Nettuts</a></li>
+                        <li><a href="http://laravel.io/">Laravel IO</a></li>
+                        <li><a href="https://leanpub.com/codebright">CodeBright</a></li>
+                        <li><a href="https://www.facebook.com/groups/allstardevteam/">Facebook dev groep</a></li>
+                        <li><a href="http://laravel.io/irc">Laravel IRC</a></li>
+                    </ul>
+                </section>
                 <?php require_once('presentations/tipsandtricks2.php'); ?>
                 <?php require_once('presentations/cache.php'); ?>
                 <?php require_once('presentations/tinker.php'); ?>

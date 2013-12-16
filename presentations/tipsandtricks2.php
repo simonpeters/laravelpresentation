@@ -224,9 +224,3 @@ class UserTableSeeder extends Seeder {
         <h1><a href="#/tips-tricks">Back</a></h1>
     </section>
 </section>
-
-<section>
-    <section>
-        <h1>Laravel tail</h1>
-    </section>
-</section>
