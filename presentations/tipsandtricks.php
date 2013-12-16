@@ -17,6 +17,7 @@
         </tr>
         <tr class="even">
             <th style="text-align: left;"><a href="#/cache">Caching</a> <br><small>Remembering stuff</small></th>
+            <th style="text-align: left;"><a href="#/eloquent">Eloquent</a> <br><small></small></th>
 
         </tr>
         </tbody>

@@ -40,7 +40,21 @@
 </section>
 
 <section>
-    <h3>Hoe oplossen?</h3>
+    <h2>Hoe verbeteren?</h2>
+    <p class="fragment">Zelf een library aanmaken</p>
+</section>
+
+<section>
+    <h1>Wat is er mis met dit voorbeeld?</h1>
+    <ul>
+        <li  class="fragment">Zelf klasse initaliseren</li>
+        <li  class="fragment">Bijhouden of instanties al aangemaakt zijn</li>
+        <li  class="fragment">...</li>
+    </ul>
+    
+</section>
+<section>
+    <h3>Laravel biedt betere oplossing</h3>
     <h1 class="fragment">Facades</h1>
 </section>
 
