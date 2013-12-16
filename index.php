@@ -82,6 +82,7 @@
                 <?php require_once('presentations/events.php'); ?>
                 <?php require_once('presentations/environments.php'); ?>
                 <?php require_once('presentations/carbon.php'); ?>
+                <?php require_once('presentations/eloquent.php'); ?>
             </div>
 
         </div>
