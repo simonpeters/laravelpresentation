@@ -17,7 +17,7 @@
         </tr>
         <tr class="even">
             <th style="text-align: left;"><a href="#/cache">Caching</a> <br><small>Remembering stuff</small></th>
-            <th style="text-align: left;"><a href="#/commands">Commands</a> <br><small>Mastering artisan commands</small></th>
+            <th style="text-align: left;"><a href="#/eloquent">Eloquent</a> <br><small></small></th>
             <th style="text-align: left;"><a href="#/environments">Environments</a> <br><small>Config all the things!</small></th>
         </tr>
         </tbody>
